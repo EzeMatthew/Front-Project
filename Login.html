@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Aos animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-img-start" style="background-image: url('./image/img12.jpg');">
+  <nav class="navbar-nav-wrap">
+
+    <a class="navbar-brand d-none d-lg-flex" href="./index.html" aria-label="Front">
+      <img class="navbar-brand-logo" src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/logos/logo.svg"
+        alt="Logo">
+    </a>
+    <!-- End White Logo -->
+
+    <!-- Default Logo -->
+    <a class="navbar-brand d-flex d-lg-none" href="./index.html" aria-label="Front">
+      <img class="navbar-brand-logo" src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/logos/logo.svg"
+        alt="Logo">
+    </a>
+    <!-- End Default Logo -->
+  </nav>
+
+  <!-- <div class="row">
+        <div class="col d-flex d-lg-none">
+          <img src="image/img6 (1).jpg" alt="" width="00px">
+        </div> -->
+
+  <div class=" col col-lg-7 col-xl-8 d-flex justify-content-center align-items-center min-vh-lg-100 bg-img-start">
+    <div class="flex-grow-1 mx-auto" style="max-width: 28rem;">
+      <!-- Heading -->
+      <div class="text-center mb-5 mb-md-7">
+        <h1 class="h2 text-white">Welcome back</h1>
+        <p class="text-white">Login to manage your account.</p>
+      </div>
+      <!-- End Heading -->
+
+      <!-- Form -->
+      <form>
+        <div class="mb-4">
+          <label class="form-label text-white" for="signupModalFormLoginEmail">Your email</label>
+          <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail"
+            placeholder="email@site.com" aria-label="email@site.com" required="">
+          <span class="invalid-feedback">Please enter a valid email address.</span>
+        </div>
+        <!-- End Form -->
+
+        <!-- Form -->
+        <div class="mb-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <label class="form-label text-white" for="signupModalFormLoginPassword t">Password</label>
+
+            <a class="form-label-link" href="">Forgot Password?</a>
+          </div>
+
+          <div class="input-group input-group-merge">
+            <input type="password" class=" form-control form-control-lg" name="password"
+              placeholder="8+ characters required">
+            <a class="input-group-append input-group-text">
+              <i class="bi-eye-slash"></i>
+            </a>
+          </div>
+        </div>
+        <!-- End Form -->
+
+        <div class="d-grid mb-3">
+          <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+        </div>
+
+        <div class="text-center">
+          <p class="text-white">Don't have an account yet? <a class="link" href="">Sign up here</a></p>
+        </div>
+      </form>
+      <!-- End Form -->
+    </div>
+  </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

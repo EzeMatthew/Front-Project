@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav styling */
+nav ul {
+    gap: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+li a:hover {
+    color: #21325b; 
+}
+
+
+.device-browser-img {
+    max-width: 100%;
+    height: auto;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: gold;
+}
+
+/* .background {
+    background-image: url('image/background.webp');
+    background-size: cover;
+} */
+.fs-4 {
+   color: gray;
+   font-size: 200px;
+}
+/* footer nav */
+li a {
+    text-decoration: none;
+}
+.footer-bg {
+    background-color: #21325b;
+}
+.list-inline-item:hover {
+    color: white;
+}
+
+/* About styling */
+.bg-img-start {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
+
+.avatar-img {
+    max-width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
